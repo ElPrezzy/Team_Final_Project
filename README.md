@@ -12,7 +12,6 @@ Loans issued for debt payments (debt consolidation + credit card refinancing) ar
 
 Debt-payment loans stay Current at a meaningfully higher rate (82.0%) than small-business loans (76.3%) — a 5.7 percentage-point gap, statistically significant.
 
-![Success rate by purpose group](figures/success_rate_by_purpose.png)
 
 ## Key statistics
 
@@ -42,26 +41,6 @@ The chi-square confirms purpose and Current-status are not independent. Cramér'
 ## Supporting finding
 
 60-month loans show a higher Current rate (83.7%) than 36-month loans (81.0%). This is *not* evidence that longer loans are safer — it is a survivorship effect. 36-month loans from 2014–2015 had time to finish and move to "Fully Paid," while 60-month loans were still actively paying when the data was pulled.
-
-![Success rate by loan term](figures/success_rate_by_term.png)
-
-## Repo structure
-
-```
-lendingclub-current-loans/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── src/
-│   └── analysis.py            # full OOP analysis pipeline
-├── figures/
-│   ├── success_rate_by_purpose.png
-│   └── success_rate_by_term.png
-├── report/
-│   └── report.md              # written report draft
-└── data/
-    └── README.md              # dataset instructions (CSV not tracked)
-```
 
 ## How to run
 
