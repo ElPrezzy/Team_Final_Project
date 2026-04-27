@@ -62,4 +62,4 @@ Python 3 · pandas · numpy · scipy.stats · statsmodels · matplotlib · seabo
 
 ## Author
 
-Alexandre Lenfers — Team 04 - Data Science
+Alexandre Lenfers — Team 04 — Data Science University Of Arkansas
